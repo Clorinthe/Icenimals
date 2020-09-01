@@ -43,9 +43,11 @@ struct BlobSource {
     public Rigidbody rigid;
 };
 
+
 [ExecuteInEditMode]
 public class OriginalMCBlob : MonoBehaviour
 {
+    public Vector3 barycenter = new Vector3();
 
     static public float default_power = .13f;
 
@@ -761,7 +763,7 @@ public class OriginalMCBlob : MonoBehaviour
             return;
         }
 
-        Vector3 barycenter = new Vector3();
+        barycenter = new Vector3();
         for (int i = 0; i < valid_sources.Count; ++i)
         {
             barycenter += valid_sources[i].obj.transform.position;
