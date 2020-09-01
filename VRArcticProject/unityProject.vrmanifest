@@ -1,0 +1,16 @@
+{
+  "source": "Unity",
+  "applications": [
+    {
+      "app_key": "application.generated.unity.vrarcticproject.exe",
+      "launch_type": "url",
+      "url": "steam://launch/",
+      "action_manifest_path": "C:\\Users\\s.lebigot\\OneDrive - Interface3\\Sophie-Interface3\\VR\\VRArctic\\VRArcticProject\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "strings": {
+        "en_us": {
+          "name": "VRArcticProject [Testing]"
+        }
+      }
+    }
+  ]
+}
