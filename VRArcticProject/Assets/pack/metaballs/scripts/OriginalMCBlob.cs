@@ -753,6 +753,18 @@ public class OriginalMCBlob : MonoBehaviour
 
     }
 
+    public void deleteSources(GameObject ball)
+    {
+        for (int i = 0; i < sources.Count; ++i)
+        {
+            GameObject go = sources[i];
+            if (go == ball)
+            {
+                sources[i] = null;
+            }
+        }
+        request_sources_check = true;
+    }
     private void update_sources() {
 
         if (blobs == null || valid_sources == null) {
