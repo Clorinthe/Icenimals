@@ -66,6 +66,15 @@ public class OriginalMCBlob : MonoBehaviour
     int _dimY = 30;
     int _dimZ = 30;
 
+    public int getActiveSources()
+    {
+        if(valid_sources == null)
+        {
+            return 0;
+        }
+        return valid_sources.Count;
+        
+    }
     public int dimX
     {
         get { return _dimX; }
