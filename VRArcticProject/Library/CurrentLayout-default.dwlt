@@ -115,7 +115,7 @@ MonoBehaviour:
   m_MinSize: {x: 811, y: 492}
   m_MaxSize: {x: 22006, y: 14042}
   vertical: 0
-  controlID: 199
+  controlID: 156
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -140,7 +140,7 @@ MonoBehaviour:
   m_MinSize: {x: 535, y: 492}
   m_MaxSize: {x: 18005, y: 14042}
   vertical: 1
-  controlID: 36
+  controlID: 43
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -165,7 +165,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 37
+  controlID: 44
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -246,7 +246,7 @@ MonoBehaviour:
   m_MinSize: {x: 535, y: 271}
   m_MaxSize: {x: 18005, y: 10021}
   vertical: 0
-  controlID: 149
+  controlID: 162
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -561,11 +561,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.025144426, y: 0.9574003, z: -0.08784564, w: -0.27398902}
     speed: 2
-    m_Value: {x: -0.025143994, y: 0.9573839, z: -0.08784413, w: -0.2739843}
+    m_Value: {x: -0.025143996, y: 0.9573839, z: -0.08784413, w: -0.2739843}
   m_Size:
     m_Target: 23.09315
     speed: 2
-    m_Value: 24.181309
+    m_Value: 23.09315
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -719,20 +719,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/#Project/Materials
+    - Assets/#Project/Sounds/SoundEffects
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/#Project/Materials
+  - Assets/#Project/Sounds/SoundEffects
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\s.lebigot\OneDrive - Interface3\Sophie-Interface3\VR\VRArctic\VRArcticProject
+  m_LastProjectPath: D:\ProjetVr\VRArctic\VRArcticProject
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 300}
-    m_SelectedIDs: bc460000
-    m_LastClickedID: 18108
-    m_ExpandedIDs: 0000000030460000324600003446000036460000384600003a4600003c4600003e46000040460000424600004446000046460000484600004a460000d046000000ca9a3b
+    scrollPos: {x: 0, y: 158}
+    m_SelectedIDs: 306a0000
+    m_LastClickedID: 27184
+    m_ExpandedIDs: 000000007a6900007c6900007e69000080690000826900008469000086690000886900008a6900008c6900008e690000906900009269000094690000f069000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -760,7 +760,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000030460000324600003446000036460000384600003a4600003c4600003e46000040460000424600004446000046460000484600004a460000
+    m_ExpandedIDs: 000000007a6900007c6900007e69000080690000826900008469000086690000886900008a6900008c6900008e690000906900009269000094690000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -962,10 +962,10 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 203}
-      m_SelectedIDs: 6c410000
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 306a0000
       m_LastClickedID: 0
-      m_ExpandedIDs: 40fbffff584000009e400000
+      m_ExpandedIDs: debcfffff2630000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
