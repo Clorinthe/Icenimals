@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class TimeSound : MonoBehaviour
 {
+    public GameObject suite = null;
+    public GameObject pet = null;
+    bool fin = false;
     AudioSource sonCris;
     float currentTime;
     public float startTime = 10f;
@@ -13,6 +16,7 @@ public class TimeSound : MonoBehaviour
     {
         sonCris = GetComponent<AudioSource>();
         currentTime = startTime;
+        enabled = false;
     }
 
     // Update is called once per frame
@@ -20,16 +24,18 @@ public class TimeSound : MonoBehaviour
     {
         currentTime -= 1 * Time.deltaTime;
         Debug.Log(currentTime);
+
         if (sonJouer == false)
         {
-            if (currentTime < 0)
-            {
-                sonCris.Play();
-                Debug.Log("Son lancer !");
-                sonJouer = true;
-
-            }
+            sonCris.Play();
+            sonJouer = true;
+        }
+        if (currentTime < 0)
+        {
+            suite.SetActive(true);
+            pet.SetActive(false);
 
         }
+
     }
 }

@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class Suivant : MonoBehaviour
 {
-    public GameObject suite = null;
+    public TimeSound suite = null;
     public GameObject sources = null;
     public int minimumSources = 5;
-    private bool theEnd = false;
+    public bool theEnd = false;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        suite = GetComponent<TimeSound>();
     }
 
     // Update is called once per frame
@@ -29,7 +29,7 @@ public class Suivant : MonoBehaviour
         }
         else if (sources.transform.childCount == 0)
         {
-            suite.SetActive(true);
+            suite.enabled = true;
         }
     }
 }
