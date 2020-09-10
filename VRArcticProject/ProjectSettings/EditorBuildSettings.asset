@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/#Project/Scenes/IF3-splash.unity
+    guid: c62c474c30f347f4db13f4efb6654bcc
+  - enabled: 1
+    path: Assets/#Project/Scenes/#1.unity
+    guid: 2697f1a0f6cc8d74389e562058977c91
   m_configObjects: {}
