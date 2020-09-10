@@ -6,6 +6,7 @@ public class TimeSound : MonoBehaviour
 {
     public GameObject suite = null;
     public GameObject pet = null;
+    public GameObject pet2 = null;
     bool fin = false;
     AudioSource sonCris;
     float currentTime;
@@ -33,6 +34,7 @@ public class TimeSound : MonoBehaviour
         if (currentTime < 0)
         {
             suite.SetActive(true);
+            pet2.SetActive(true);
             pet.SetActive(false);
 
         }
