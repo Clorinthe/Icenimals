@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Suivant : MonoBehaviour
 {
+    public Rigidbody pet = null;
     private TimeSound suite = null;
     public GameObject sources = null;
     public int minimumSources = 5;
@@ -26,6 +27,7 @@ public class Suivant : MonoBehaviour
             {
                 c.dying = true;
             }
+            pet.constraints = RigidbodyConstraints.FreezePosition;
         }
         else if (sources.transform.childCount == 0)
         {

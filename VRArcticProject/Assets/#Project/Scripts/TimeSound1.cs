@@ -24,7 +24,7 @@ public class TimeSound1 : MonoBehaviour
     void Update()
     {
         currentTime -= 1 * Time.deltaTime;
-        Debug.Log(currentTime);
+       
 
         if (sonJouer == false)
         {

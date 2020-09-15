@@ -26,7 +26,7 @@ public class TimingSplash : MonoBehaviour
     void Update()
     {
         currentTime -= 1 * Time.deltaTime;
-        Debug.Log(currentTime);
+        
         if (currentTime < 0)
         {
 

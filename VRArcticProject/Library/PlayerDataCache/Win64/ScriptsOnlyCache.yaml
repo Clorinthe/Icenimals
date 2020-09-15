@@ -5,6 +5,7 @@ ScriptsOnlyBuild:
     - CenterCopie
     - Contact1
     - FadeOut
+    - Fin
     - LowPolyWater.LowPolyWater
     - OriginalMCBlob
     - OriginalMCBlobSource
@@ -185,6 +186,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 14972}
     - Class: 114
       Script: {instanceID: 15324}
+    - Class: 114
+      Script: {instanceID: 38148}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 134
@@ -1463,7 +1466,7 @@ ScriptsOnlyBuild:
     className: DebugUIHandlerToggleHistory
   - hash:
       serializedVersion: 2
-      Hash: 3c5d947d775d4cdd76c487c4a1461851
+      Hash: 9f4471c05f607916bbe906391ea73014
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Suivant
@@ -2589,8 +2592,14 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: UnityStandardAssets.Utility
     className: AutoMobileShaderSwitch
+  - hash:
+      serializedVersion: 2
+      Hash: 382e6d9dcbe28043fff7362d60dacc46
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Fin
   platform: 19
   scenePathNames:
   - Assets/#Project/Scenes/IF3-splash.unity
   - Assets/#Project/Scenes/#1.unity
-  playerPath: C:/Users/s.lebigot/Desktop/BuildVR0.2/Icenimals.exe
+  playerPath: C:/Users/s.lebigot/Desktop/Icenimals_v0.3/Icenimals.exe
