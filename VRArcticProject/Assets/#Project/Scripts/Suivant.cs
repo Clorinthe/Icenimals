@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Suivant : MonoBehaviour
 {
-    public TimeSound suite = null;
+    private TimeSound suite = null;
     public GameObject sources = null;
     public int minimumSources = 5;
     public bool theEnd = false;

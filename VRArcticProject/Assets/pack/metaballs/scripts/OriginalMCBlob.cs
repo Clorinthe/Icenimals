@@ -838,7 +838,8 @@ public class OriginalMCBlob : MonoBehaviour
     void Start()
     {
         lt = 0f;
-        Regen();
+        request_sources_check = true;
+
     }
 
     /*Unity Specific starting of engine*/
